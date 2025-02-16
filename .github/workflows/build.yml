@@ -9,14 +9,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v3
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20.18.1
           cache: pnpm
-
-      - name: Setup PNPM
-        run: corepack enable && pnpm -v
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
