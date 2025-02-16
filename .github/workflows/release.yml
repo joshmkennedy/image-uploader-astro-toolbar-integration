@@ -29,9 +29,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup PNPM
-        run: corepack enable && pnpm -v
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -39,11 +36,14 @@ jobs:
           cache: pnpm
           registry-url: "https://registry.npmjs.org"
 
+      - name: Setup PNPM
+        run: corepack enable && pnpm -v
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm --filter package-name build
+        run: pnpm --filter image-uploader-astro-toolbar-integration run build
 
       - name: Create Release Pull Request or Publish
         id: changesets
