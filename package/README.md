@@ -1,8 +1,5 @@
 # `image-uploader-astro-toolbar-integration`
 
-[![Demo]
-(https://raw.githubusercontent.com/joshmkennedy/image-uploader-astro-toolbar-integration/main/repo-assets/thumbnail.png)]
-(https://raw.githubusercontent.com/joshmkennedy/image-uploader-astro-toolbar-integration/main/repo-assets/demo.mp4)
 
 This is an [Astro integration](https://docs.astro.build/en/guides/integrations-guide/) that Allows you to upload images to your public directory via the toolbar
 
