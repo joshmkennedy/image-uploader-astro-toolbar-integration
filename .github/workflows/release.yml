@@ -60,3 +60,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.COMMIT_TOKEN }}
           # Needs access to publish to npm
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
