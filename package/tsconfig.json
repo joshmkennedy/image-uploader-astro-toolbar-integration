@@ -6,5 +6,6 @@
     "jsx": "react-jsx",
 		"jsxImportSource": "preact"
 	},
-	"exclude": ["dist"]
+	"exclude": ["dist"],
+	"include": [".astro/types.d.ts", "**/*"]
 }

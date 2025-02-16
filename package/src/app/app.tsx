@@ -9,7 +9,7 @@ export interface ToolBarServer {
 }
 
 export default defineToolbarApp({
-  async init(canvas, app, server) {
+  async init(canvas, _app, server) {
     //styles
     const link = document.createElement("link");
     link.rel = "stylesheet";
@@ -21,7 +21,7 @@ export default defineToolbarApp({
       reader.onload = (e) => {
         server.send("toolbar-uploader-app:upload-file", {
           name: file.name.replaceAll(" ", "-"),
-          file: e.target.result,
+          file: e.target?.result ?? "",
         });
       };
       reader.readAsDataURL(file);

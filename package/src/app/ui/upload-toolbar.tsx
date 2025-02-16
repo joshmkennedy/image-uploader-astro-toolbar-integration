@@ -45,7 +45,7 @@ export default function UploadToolbar({
 		window.navigator.clipboard.writeText(`<img src="/${name}" />`)
 
     reader.onload = (e) => {
-      setUploadedImg(e.target.result);
+      setUploadedImg(e.target?.result ?? null);
     };
     reader.readAsDataURL(file);
   }

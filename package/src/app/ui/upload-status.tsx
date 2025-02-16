@@ -61,4 +61,5 @@ export default function UploadStatus({
       </p>
     );
   }
+	return null;
 }
