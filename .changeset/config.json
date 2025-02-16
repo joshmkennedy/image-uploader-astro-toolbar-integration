@@ -3,7 +3,7 @@
 	"changelog": [
 		"@changesets/changelog-github",
 		{
-			"repo": "<repo>/<org>"
+			"repo": "image-uploader-astro-toolbar-integration/joshmkennedy"
 		}
 	],
 	"commit": false,
