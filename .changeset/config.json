@@ -12,5 +12,5 @@
 	"access": "public",
 	"baseBranch": "main",
 	"updateInternalDependencies": "patch",
-	"ignore": ["playground", "repo-assets"]
+	"ignore": ["playground"]
 }
