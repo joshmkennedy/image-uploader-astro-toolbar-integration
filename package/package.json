@@ -1,6 +1,6 @@
 {
 	"name": "image-uploader-astro-toolbar-integration",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Allows you to upload images to your public directory via the toolbar",
 	"author": {
 		"email": "joshmk93@gmail.com",
