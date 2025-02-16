@@ -1,12 +1,14 @@
 # `image-uploader-astro-toolbar-integration`
 
+[![Demo](https://raw.githubusercontent.com/joshmkennedy/image-uploader-astro-toolbar-integration/main/repo-assets/thumbnail.png)](https://raw.githubusercontent.com/joshmkennedy/image-uploader-astro-toolbar-integration/main/repo-assets/demo.mov)
+
 This is an [Astro integration](https://docs.astro.build/en/guides/integrations-guide/) that Allows you to upload images to your public directory via the toolbar
 
 ## Usage
 
 ### Prerequisites
 
-Love yourself and other 💜.
+You are prepared for this package to not change your life in any way.
 
 ### Installation
 
@@ -59,7 +61,7 @@ This package is structured as a monorepo:
 - `playground` contains code for testing the package
 - `package` contains the actual package
 
-Install dependencies using pnpm: 
+Install dependencies using pnpm:
 
 ```bash
 pnpm i --frozen-lockfile
