@@ -1,5 +1,7 @@
 # image-uploader-astro-toolbar-integration
 
+and update
+
 Allows you to upload images to your public directory via the toolbar
 
 To see how to get started, check out the [package README](./package/README.md)
